@@ -1,0 +1,7 @@
+body{font-family:Calibri,sans-serif;margin:0;background:#f4f6f8;color:#333}
+.hero{background:#3d5a80;color:white;padding:120px;text-align:center}
+.hero h1{font-size:42px}.container{width:85%;margin:auto}.section{margin-top:50px}
+.section h2{font-size:32px;border-left:6px solid #3d5a80;padding-left:10px}
+.card,.page{background:white;padding:25px;margin:20px;border-radius:15px;box-shadow:0 4px 15px rgba(0,0,0,.08)}
+.page{max-width:900px;margin:50px auto}.label{text-decoration:underline;font-size:22px;font-weight:bold}
+a{text-decoration:none;color:#3d5a80}
