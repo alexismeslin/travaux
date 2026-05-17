@@ -27,6 +27,12 @@
     .justifie {
       text-align: justify;
     }
+    .pdf-container {
+  border: 2px solid #d1d5db;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 20px;
+}
   </style>
 
 </head>
@@ -60,8 +66,13 @@
 <p>
   <u>2/ Diaporama présenté aux responsables de la ville</u>
 </p>
-
-<p><a href="../pdf/diaporama_bilan_malo.pdf">Consulter</a></p>
+<div class="pdf-container">
+  <iframe 
+    src="../pdf/diaporama_bilan_malo.pdf"
+    width="100%" 
+    height="600px">
+  </iframe>
+</div>
 
   </div>
 
