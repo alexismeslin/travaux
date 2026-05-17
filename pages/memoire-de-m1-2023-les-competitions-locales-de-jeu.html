@@ -27,12 +27,14 @@
     .justifie {
       text-align: justify;
     }
+
     .pdf-container {
-  border: 2px solid #d1d5db;
-  border-radius: 10px;
-  overflow: hidden; 
-  margin-top: 20px;
-}
+      max-width: 800px;
+      margin: 20px auto;
+      border: 2px solid #d1d5db;
+      border-radius: 10px;
+      overflow: hidden;
+    }
   </style>
 
 </head>
@@ -64,14 +66,12 @@
 
     <div class='label'>Accès</div>
 
-    <p>
-  <iframe 
-    src="pdf/memoire-m1.pdf"
-    width="90%" 
-    height="600px">
-  </iframe>
-</div>
-    </p>
+    <div class="pdf-container">
+      <iframe 
+        src="../pdf/memoire-m1.pdf"
+        style="width:100%; height:1130px; border:none;">
+      </iframe>
+    </div>
 
   </div>
 
